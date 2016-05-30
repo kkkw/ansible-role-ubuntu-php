@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-role-ubuntu-php
+ubuntu_php_version: '7.0'
+ubuntu_php_full_version: '7.0.4-7ubuntu2.1'
+# ubuntu_php_repository: ppa:ondrej/php

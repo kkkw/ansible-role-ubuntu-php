@@ -1,0 +1,8 @@
+---
+# tasks file for ansible-role-ubuntu-php
+- block:
+
+  - name: install php with apt-get
+    apt: name=php{{ ubuntu_php_version }}={{ ubuntu_php_full_version }} update_cache=yes
+
+  become: True
